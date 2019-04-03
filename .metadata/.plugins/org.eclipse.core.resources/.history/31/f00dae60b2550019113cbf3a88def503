@@ -1,0 +1,21 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		int a=7;
+		if(a>8){
+			System.out.println("A");
+		}else if(a<10){
+			System.out.println("B");
+		}
+		
+		int b=11;
+		if(b>8){
+			System.out.println("A");
+		}else if(b<10){
+			System.out.println("B");
+		}
+	}
+
+}
+ 
