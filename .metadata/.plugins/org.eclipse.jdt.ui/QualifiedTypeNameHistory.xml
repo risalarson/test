@@ -3,11 +3,17 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
 <fullyQualifiedTypeName name="Robot"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj3.dto.HelloStrutsDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj3.util.DBConnector"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj4.dto.HelloStrutsDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj4.util.DBConnector"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj4.dao.HelloStrutsDAO"/>
 </qualifiedTypeNameHistroy>
