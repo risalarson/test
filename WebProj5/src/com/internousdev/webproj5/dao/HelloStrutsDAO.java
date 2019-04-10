@@ -11,7 +11,7 @@ import com.internousdev.webproj5.util.DBConnector;
 
 public class HelloStrutsDAO {
 
-	List<HelloStrutsDTO>helloStrutsDTOList=new ArrayList<HelloStrutsDTO>();
+	List<HelloStrutsDTO> helloStrutsDTOList=new ArrayList<HelloStrutsDTO>();
 
 	public List<HelloStrutsDTO> select(){
 		DBConnector db=new DBConnector();
