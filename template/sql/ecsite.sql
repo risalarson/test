@@ -1,8 +1,8 @@
 set names utf8;
 set foreign_key_checks=0;
-drop database if exists ecsite;
-create database if not exists ecsite;
-use ecsite;
+drop database if exists ecsiterisa;
+create database if not exists ecsiterisa;
+use ecsiterisa;
 drop table if exists login_user_transaction;
 create table login_user_transaction(
 id int not null primary key auto_increment,
@@ -32,7 +32,7 @@ total_count int,
 user_master_id varchar(16),
 pay varchar(30),
 insert_date datetime,
-delete_date datetime,
+delete_date datetime
 );
 INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("ノートBook", 100,50);
 
