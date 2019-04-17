@@ -15,3 +15,7 @@
 0:0:0:0:0:0:0:1 - - [16/Apr/2019:16:42:08 +0900] "POST /template2/HomeAction.action HTTP/1.1" 200 1964
 0:0:0:0:0:0:0:1 - - [16/Apr/2019:16:47:45 +0900] "POST /template2/HomeAction.action HTTP/1.1" 200 1964
 0:0:0:0:0:0:0:1 - - [16/Apr/2019:16:47:49 +0900] "POST /template2/HomeAction.action HTTP/1.1" 200 1964
+127.0.0.1 - - [16/Apr/2019:17:49:24 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:17:49:27 +0900] "GET /template2/ HTTP/1.1" 200 1534
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:17:49:27 +0900] "GET /favicon.ico HTTP/1.1" 404 1041
+0:0:0:0:0:0:0:1 - - [16/Apr/2019:17:49:31 +0900] "POST /template2/HomeAction.action;jsessionid=4C12B57AFDE0C3F54DCCCA3988545ECC HTTP/1.1" 200 1964

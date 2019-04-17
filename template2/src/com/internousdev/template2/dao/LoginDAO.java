@@ -3,6 +3,7 @@ package com.internousdev.template2.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+
 import com.internousdev.template2.dto.LoginDTO;
 import com.internousdev.template2.util.DBConnector;
 
@@ -24,7 +25,18 @@ public class LoginDAO {
 
 			if(rs.next()){
 				loginDTO.setLoginId(rs.getString("login_id"));
+				loginDTO.setLoginPassword(rs.getString("login_pass"));
+				loginDTO.setUserName(rs.getString("user_name"));
+
+				if(!(rs.getString("login_id").equals(null))){
+					loginDTO.setLoginFlg(true);
+				}
 			}
 		}
+			catch(Exception e){
+				e.printStackTrace();
+			}
+			return loginDTO;
+
 	}
 }
