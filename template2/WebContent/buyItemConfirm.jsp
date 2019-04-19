@@ -78,12 +78,19 @@ clear:both;
 </tr>
 <tr>
 <td>購入個数</td>
+<td><s:property value="session.stock" />
+<span>個</span>
+</td>
+</tr>
+<tr>
+<td>支払い方法</td>
 <td><s:property value="session.pay" />
 </td>
 </tr>
 <tr>
 <td><s:submit value="完了" />
 </td>
+</tr>
 </table>
 </s:form>
 </div>

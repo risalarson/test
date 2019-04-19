@@ -24,7 +24,7 @@ public class BuyItemCompleteDAO {
 			ps.setString(5, pay);
 			ps.setString(6, dateUtil.getDate());
 
-			ps.executeQuery();
+			ps.execute();
 		}
 		catch(Exception e){
 			e.printStackTrace();
