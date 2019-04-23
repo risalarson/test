@@ -48,10 +48,6 @@ height:80px;
 background-color:black;
 clear:both;
 }
-#text-center{
-display:inline-block;
-text-align:center;
-}
 </style>
 </head>
 
@@ -119,6 +115,10 @@ text-align:center;
 <a href='<s:url action="GoHomeAction" />'>こちら</a></p>
 <p>マイページは<a href='<s:url action="MyPageAction" />'>こちら</a></p>
 </div>
+</div>
+</div>
+<div id="footer">
+<div id="pr">
 </div>
 </div>
 </body>

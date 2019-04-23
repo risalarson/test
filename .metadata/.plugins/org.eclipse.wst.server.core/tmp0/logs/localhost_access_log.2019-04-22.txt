@@ -67,3 +67,6 @@
 0:0:0:0:0:0:0:1 - - [22/Apr/2019:17:19:15 +0900] "POST /ecsite/UserCreateCompleteAction HTTP/1.1" 200 3541
 0:0:0:0:0:0:0:1 - - [22/Apr/2019:17:21:26 +0900] "POST /ecsite/UserCreateConfirmAction.action HTTP/1.1" 200 1902
 0:0:0:0:0:0:0:1 - - [22/Apr/2019:17:21:29 +0900] "POST /ecsite/UserCreateCompleteAction.action HTTP/1.1" 200 1327
+0:0:0:0:0:0:0:1 - - [22/Apr/2019:17:44:37 +0900] "POST /ecsite/UserCreateCompleteAction.action HTTP/1.1" 200 1377
+0:0:0:0:0:0:0:1 - - [22/Apr/2019:17:44:40 +0900] "GET /ecsite/HomeAction.action HTTP/1.1" 200 2069
+0:0:0:0:0:0:0:1 - - [22/Apr/2019:17:44:56 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 2311

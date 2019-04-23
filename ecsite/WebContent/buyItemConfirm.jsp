@@ -10,6 +10,8 @@
 <meta http-equiv="imagetoolbar" content="no" />
 <meta name="description" content="" />
 <meta name="keywords" content="" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+</script>
 <title>BuyItemConfirm画面</title>
 <style type="text/css">
 body{
@@ -48,11 +50,14 @@ height:80px;
 background-color:black;
 clear:both;
 }
-#text-center{
-display:inline-block;
-text-align:center;
-}
 </style>
+<script type="text/javascript">
+function submitAction(url){
+	$('form').attr('action', url);
+	$('form').submit();
+}
+</script>
+
 </head>
 
 <body>
@@ -101,7 +106,6 @@ text-align:center;
 <div>
 <p>前画面に戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
 <p>マイページは<a href='<s:url action="MyPageAction" />'>こちら</a></p>
-<a href='<s:url action="HomeAction" />'>ログインへ</a>
 </div>
 </div>
 <div id="footer">

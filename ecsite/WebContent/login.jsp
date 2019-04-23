@@ -48,9 +48,9 @@ height:80px;
 background-color:black;
 clear:both;
 }
-#text-center{
+#text-link{
 display:inline-block;
-text-align:center;
+text-align:right;
 }
 </style>
 </head>
