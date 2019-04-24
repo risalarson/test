@@ -80,3 +80,4 @@
 0:0:0:0:0:0:0:1 - - [23/Apr/2019:16:42:49 +0900] "POST /ecsite/BuyItemConfirmAction HTTP/1.1" 200 1446
 0:0:0:0:0:0:0:1 - - [23/Apr/2019:16:42:50 +0900] "GET /ecsite/MyPageAction.action HTTP/1.1" 200 2722
 0:0:0:0:0:0:0:1 - - [23/Apr/2019:16:47:44 +0900] "POST /ecsite/MyPageAction.action HTTP/1.1" 200 1487
+0:0:0:0:0:0:0:1 - - [23/Apr/2019:17:46:52 +0900] "GET /ecsite/MyPageAction.action HTTP/1.1" 200 9185

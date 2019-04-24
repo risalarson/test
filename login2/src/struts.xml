@@ -2,6 +2,7 @@
 <!DOCTYPE struts PUBLIC
 "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
 "http://struts.apache.org/dtds/struts-2.3.dtd">
+
 <struts>
 <constant name="struts.devMode" value="true" />
 <package name="com.internousdev.login2.action" extends="struts-default">
@@ -9,5 +10,6 @@
 <result name="success">loginSuccess.jsp</result>
 <result name="error">loginError.jsp</result>
 </action>
+
 </package>
 </struts>
