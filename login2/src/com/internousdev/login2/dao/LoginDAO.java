@@ -1,12 +1,13 @@
 package com.internousdev.login2.dao;
 
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import com.internousdev.login2.dto.LoginDTO;
 import com.internousdev.login2.util.DBConnector;
-import com.mysql.jdbc.Connection;
+
 
 public class LoginDAO {
 
